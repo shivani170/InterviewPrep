@@ -1,0 +1,26 @@
+.recipe-container {
+    max-height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.recipe {
+    padding: 8px;
+
+    &:hover {
+        border-radius: 12px;
+        background-color: grey;
+        color: white;
+
+
+    }
+}

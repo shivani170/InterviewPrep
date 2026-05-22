@@ -1,10 +1,11 @@
-import TabFormRouter from './MachineCoding/tabform/TabFormRouter'
 import { BrowserRouter } from 'react-router-dom'
+import { Recipe } from './MachineCoding/search/Recipe'
 
 const App = () => {
     return (
         <BrowserRouter>
-            <TabFormRouter />
+            {/* <TabFormRouter /> */}
+            <Recipe />
         </BrowserRouter>
     )
 }
