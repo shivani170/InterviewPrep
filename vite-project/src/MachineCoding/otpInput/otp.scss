@@ -1,0 +1,18 @@
+.otp-container{
+ display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 10rem;
+    justify-content: center;
+}
+
+.otp-input{
+    width: 40px;
+    height: 40px;
+    display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+    border-radius: 8px;
+    color: black
+}
