@@ -1,11 +1,14 @@
 import { BrowserRouter } from 'react-router-dom'
-import { Recipe } from './MachineCoding/search/Recipe'
+import FileExplorer from './MachineCoding/fileExplorer/fileExplorer'
 
 const App = () => {
     return (
         <BrowserRouter>
             {/* <TabFormRouter /> */}
-            <Recipe />
+            {/* <ProgressBar progress={70} /> */}
+            {/* <Recipe /> */}
+            <FileExplorer />
+
         </BrowserRouter>
     )
 }
