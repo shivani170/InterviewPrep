@@ -1,0 +1,69 @@
+[
+    {
+        "id": 1,
+        "name": "public",
+        "children": [
+            {
+                "id": 11,
+                "name": "index.html",
+                "isFolder": false,
+                "children": []
+            },
+            {
+                "id": 11,
+                "name": "favicon.ico",
+                "isFolder": false,
+                "children": []
+            }
+        ],
+        "isFolder": true,
+        "isOpen": false
+    },
+    {
+        "id":2,
+        "name": "package.json",
+        "isFolder": false,
+        "children": []
+    },
+    {
+        "id": 3,
+        "name": "src",
+        "isFolder": true,
+        "isOpen": false,
+        "children": [
+            {
+                "id": 12,
+                "name": "file1.txt",
+                "isFolder": false,
+                "children": []
+            },
+            {
+                "id": 13,
+                "name": "Folder1",
+                "isFolder": false,
+                "isOpen": false,
+                "children": []
+            },
+            {
+                "id": 14,
+                "name": "components",
+                "isFolder": true,
+                "isOpen": false,
+                "children": [
+                    {
+                        "id": 21,
+                        "name": "button.tsx",
+                        "isFolder": false,
+                        "children": []
+                    },
+                    {
+                        "id": 22,
+                        "name": "styles.css",
+                        "isFolder": false,
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+]

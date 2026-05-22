@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import FileExplorer from './MachineCoding/fileExplorer/fileExplorer'
+import FileExplorer from './MachineCoding/fileExplorer/FileExplorer'
 
 const App = () => {
     return (
