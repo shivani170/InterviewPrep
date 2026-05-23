@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
-import FileExplorer from './MachineCoding/fileExplorer/FileExplorer'
+import Accordion from './MachineCoding/accordian/Accordion'
 
 const App = () => {
     return (
@@ -7,7 +7,9 @@ const App = () => {
             {/* <TabFormRouter /> */}
             {/* <ProgressBar progress={70} /> */}
             {/* <Recipe /> */}
-            <FileExplorer />
+            {/* <FileExplorer /> */}
+            {/* <TodoList /> */}
+            <Accordion />
 
         </BrowserRouter>
     )

@@ -40,7 +40,7 @@ const ValidateOtpInput = () => {
             value={input}
             type="text"
             maxLength={1}
-             ref={(input) => {
+            ref={(input) => {
               inputRef.current[idx] = input;
             }}
             onKeyDown={(e) => handleKeyDown(e, idx)}
