@@ -16,8 +16,7 @@
                 "children": []
             }
         ],
-        "isFolder": true,
-        "isOpen": false
+        "isFolder": true
     },
     {
         "id":2,
@@ -29,7 +28,6 @@
         "id": 3,
         "name": "src",
         "isFolder": true,
-        "isOpen": false,
         "children": [
             {
                 "id": 12,
@@ -41,14 +39,12 @@
                 "id": 13,
                 "name": "Folder1",
                 "isFolder": false,
-                "isOpen": false,
                 "children": []
             },
             {
                 "id": 14,
                 "name": "components",
                 "isFolder": true,
-                "isOpen": false,
                 "children": [
                     {
                         "id": 21,

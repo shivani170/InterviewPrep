@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './progress.scss'
 
-export const ProgressBar = ({ progress }) => {
+export const ProgressBar = ({ progress = 70 }: {progress?: number}) => {
     const [animatedBar, setAnimatedBar] = useState(0);
 
     useEffect(() => {
