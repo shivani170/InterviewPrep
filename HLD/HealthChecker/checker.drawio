@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="g40ZhefImsG7XOBHmJ-A" name="Page-1">
+        <mxGraphModel dx="767" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="                +----------------+&#xa;                | Admin Portal   |&#xa;                +--------+-------+&#xa;                         |&#xa;                         v&#xa;             +-----------+-----------+&#xa;             | Health Monitoring API |&#xa;             +-----------+-----------+&#xa;                         |&#xa;                         v&#xa;              +----------+----------+&#xa;              | Health Check Manager |&#xa;              +----------+----------+&#xa;                         |&#xa;         +---------------+--------------+&#xa;         |                              |&#xa;         v                              v&#xa;&#xa;+------------------+       +------------------+&#xa;| Scheduler        |       | Result Processor |&#xa;+--------+---------+       +---------+--------+&#xa;         |                           |&#xa;         v                           v&#xa;&#xa;+------------------+       +------------------+&#xa;| Health Checkers  | ----&gt; | Alert Service    |&#xa;+------------------+       +------------------+&#xa;                                    |&#xa;               +--------------------+----------------+&#xa;               |                    |                |&#xa;               v                    v                v&#xa;         Email Alert         Slack Alert       SMS Alert&#xa;&#xa;                                    |&#xa;                                    v&#xa;&#xa;                          +----------------+&#xa;                          | MongoDB        |&#xa;                          +----------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="-120" width="280" height="770" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="+----------------+&#xa;| Service        |&#xa;+----------------+&#xa;| id             |&#xa;| name           |&#xa;| url            |&#xa;| interval       |&#xa;+----------------+&#xa;&#xa;&#xa;        |&#xa;        v&#xa;&#xa;&#xa;+----------------+&#xa;| HealthChecker  |&#xa;+----------------+&#xa;| check()        |&#xa;+----------------+&#xa;&#xa;&#xa;        |&#xa;        v&#xa;&#xa;&#xa;+----------------+&#xa;| HealthResult   |&#xa;+----------------+&#xa;| status         |&#xa;| responseTime   |&#xa;| timestamp      |&#xa;+----------------+&#xa;&#xa;&#xa;        |&#xa;        v&#xa;&#xa;&#xa;+----------------+&#xa;| AlertService   |&#xa;+----------------+&#xa;| notify()       |&#xa;+----------------+&#xa;&#xa;&#xa;        |&#xa;   +----+-----+&#xa;   |          |&#xa;   v          v&#xa;&#xa;&#xa;EmailAlert  SlackAlert" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="-150" width="150" height="770" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,1 @@
+One object (the Subject) keeps a list of interested objects (Observers) and automatically notifies them whenever something changes.

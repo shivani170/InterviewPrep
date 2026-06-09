@@ -57,7 +57,7 @@ const List = ({ items, setData }: ListTypes) => {
 
   const handleKeyDown = (e) => {
     if ((e.key = "Key")) {
-      handleAddFolder();
+      // handleAddFolder();
     }
   };
 
@@ -106,7 +106,7 @@ const fileExplorer = () => {
     <div className="bg-white">
       <h4 className="pl-2 pt-2">Explorer</h4>
       <div className="flex flex-col px-2">
-        {<List items={data} setData={setData} />}
+        {/* {<List items={data} setData={setData} />} */}
       </div>
     </div>
   );

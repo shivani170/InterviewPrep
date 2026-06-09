@@ -1,0 +1,1 @@
+It is a creational design pattern that create new object by  copy(clone) existing design pattern

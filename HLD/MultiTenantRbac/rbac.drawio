@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="9Ob5P-0KHdctQ_5BESuw" name="Page-1">
+        <mxGraphModel dx="652" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="+------------+&#xa;| Tenant     |&#xa;+------------+&#xa;| id         |&#xa;| name       |&#xa;+------------+&#xa;&#xa;&#xa;      1&#xa;      |&#xa;      |&#xa;      *&#xa;+------------+&#xa;| Role       |&#xa;+------------+&#xa;| id         |&#xa;| tenantId   |&#xa;| name       |&#xa;+------------+&#xa;&#xa;&#xa;      *&#xa;      |&#xa;      |&#xa;      *&#xa;+---------------+&#xa;| Permission    |&#xa;+---------------+&#xa;| id            |&#xa;| resource      |&#xa;| action        |&#xa;+---------------+&#xa;&#xa;&#xa;      *&#xa;      |&#xa;      |&#xa;      *&#xa;+------------+&#xa;| User       |&#xa;+------------+&#xa;| id         |&#xa;| email      |&#xa;+------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="220" width="120" height="660" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
