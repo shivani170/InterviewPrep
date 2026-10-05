@@ -22,13 +22,12 @@ func PerformanceGetRequest() {
 
 	defer response.Body.Close()
 	content, _ := io.ReadAll(response.Body)
+	// fmt.Println("content", string(content))
 
 	// fmt.Println("Status Code", response.StatusCode)
 
 	var responseString strings.Builder
 	responseString.Write(content)
 	fmt.Println("strings.Builder", responseString.String())
-
-	// fmt.Println("content", string(content))
 
 }
